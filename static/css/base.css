@@ -1,0 +1,68 @@
+#kof {
+    width: 1280px;
+    height: 720px;
+    background-image: url("../images/background/0.gif");
+    background-size: 200% 100%;
+    background-position: top;
+    position: absolute;
+}
+
+.kofHead {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Player0Hp {
+    width: 45%;
+    height: 40px;
+    border: 5px solid;
+    border-color: white;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-right: 0;
+}
+
+.timer {
+    background-color: orange;
+    width: 5%;
+    height: 50px;
+    border: 5px solid;
+    border-color: white;
+    box-sizing: border-box;
+    margin: 10px 0;
+
+    font-weight: 800;
+    color: white;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Player1Hp {
+    width: 45%;
+    height: 40px;
+    border: 5px solid;
+    border-color: white;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.Player0Hp>div {
+    background: lightgreen;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.Player1Hp>div {
+    background: lightgreen;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
